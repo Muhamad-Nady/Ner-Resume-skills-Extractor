@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Resume Analyser</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+    	<h1> <center class"text-center">Skills Extractor</center></h1>
+    	
+	<form class="p3 text-center" action = "http://localhost:5000/uploader" method = "POST" enctype = "multipart/form-data">
+         
+            <center>
+                <label for="name">Upload your Resume.</label>
+            </center>
+            
+            <center>
+                <input class="form-control" type="file" id="resume" name="resume" accept="pdf">
+         
+            </center>
+
+            <center>
+                <input class="btn btn-primary mt-3" type="submit">
+            </center> 
+            <center>
+                <p style="color:blue;"><strong>Your Skills:</strong>{{prediction}}</p>
+            </center>    
+
+        </form>
+    
+        <script scr="http://code.jquery.com/jquery.min.js"></script>
+        <script scr="../../js/bootstrap.min.js"></script>
+    
+    </body>
+</html>
