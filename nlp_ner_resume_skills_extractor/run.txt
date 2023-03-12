@@ -1,1 +1,0 @@
-python C:\Users\trainee\Desktop\hits_project\solution\inferance.py C:\Users\trainee\Desktop\hits_project\solution\resumes\Mahmoud_Abdrabo_CV.pdf
