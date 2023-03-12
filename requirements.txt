@@ -1,3 +1,4 @@
+sudo apt install python
 !pip3 install torch
 !pip3 install transformers seqeval[gpu]
 !pip3 install clean-text
