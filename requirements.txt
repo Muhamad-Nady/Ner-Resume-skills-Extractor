@@ -1,0 +1,9 @@
+!pip3 install torch
+!pip3 install transformers seqeval[gpu]
+!pip3 install clean-text
+!pip3 install emoji==1.7
+!pip3 install clean-text[gpl]
+!pip3 install PyPDF2==2.12.1
+!pip3 install wordcloud
+!pip3 install matplotlib
+!pip3 install pandas
